@@ -36,6 +36,7 @@ const QuizPage = () => {
       <QuizTable quizzes={filteredQuizzes} />
     </div>
   );
+  
 }
 
 export default QuizPage;
