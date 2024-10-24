@@ -1,0 +1,64 @@
+
+.select-menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    margin-right: 5px;
+  }
+  
+  .select-btn {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: lighter;
+    width: 102px;
+    height: 11px;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .select-btn:hover {
+    background-color: #444;
+  }
+  
+  .select-btn i {
+    font-size: 16px;
+    transition: transform 0.3s ease;
+  }
+  
+  .select-menu.active .select-btn i {
+    transform: rotate(-180deg);
+  }
+  
+  .options {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .option {
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option:hover {
+    background-color: #444;
+  }
+  
+  .option-text {
+    font-size: 12px;
+    
+  }
+  
+  
